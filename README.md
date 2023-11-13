@@ -1,3 +1,9 @@
+# Personal notes
+
+* ch 1: Gen AI is not deterministic, and has builtin randomness in output token selection that can be modified using a **Temperature** parameter.
+
+* ch 2: 
+___
 
 ![Generative AI For Beginners](./images/repository-thumbnail.png?WT.mc_id=academic-105485-koreyst)
 
