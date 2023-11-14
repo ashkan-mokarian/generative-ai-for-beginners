@@ -2,7 +2,12 @@
 
 * ch 1: Gen AI is not deterministic, and has builtin randomness in output token selection that can be modified using a **Temperature** parameter.
 
-* ch 2: 
+* ch 2
+    * Foundation models are LLMs trained on unsupervised multimodal data such as GPT. ChatGPT is just a finetuned version of this for conversational usecase.
+    * Some open source models are: Alpaca, Bloom, LLaMA. Propriety ones are: OpenAI models, Google Bard, Claude 2
+    * **Prompt engineering**: Cost effective way of getting desired results by providing context to the same base model e.g. 'zero-shot learning'. Or 'one-shot learning' by giving it one example, or 'few-shot' by providing multiple examples of what is expected of the model.
+    * Retrieval Augmented Generation (RAG): Providing more recent data, to until what the base model was originally trained on, in the prompt, by considering the prompt length limits, to enhance the model's perforamce beyond it's limits, while not updating the training (cheaper).
+    * Fine-tuning or Training: more expensive approaches requiring specialized data for task.
 ___
 
 ![Generative AI For Beginners](./images/repository-thumbnail.png?WT.mc_id=academic-105485-koreyst)
